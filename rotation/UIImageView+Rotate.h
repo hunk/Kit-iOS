@@ -11,4 +11,7 @@
 
 @interface UIImageView (ImageRotate)
 - (void)spinImageWithTime:(CFTimeInterval)inDuration direction:(int)direction;
+
+- (void)spinInfinityImageWithTime:(CFTimeInterval)inDuration direction:(int)direction;
+- (void)stopSpinInfinityImage;
 @end

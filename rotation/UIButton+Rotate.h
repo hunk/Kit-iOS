@@ -11,4 +11,7 @@
 
 @interface UIButton (ButtonRotate)
 - (void)spinButtonWithTime:(CFTimeInterval)inDuration direction:(int)direction;
+
+- (void)spinInfinityButtonWithTime:(CFTimeInterval)inDuration direction:(int)direction;
+- (void)stopSpinInfinityButton;
 @end
